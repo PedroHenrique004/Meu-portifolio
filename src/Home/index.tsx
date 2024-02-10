@@ -4,7 +4,7 @@ import AOS from 'aos'
 import 'aos/dist/aos.css';
 
 
-import { Button, Text, Title, Introduction, Images, TextHover } from "./styles"
+import { Button, Text, Title, Introduction, Images, TextHover, CelContainer, Mensage } from "./styles"
 
 
 import image1 from "../images/fork.png"
@@ -44,29 +44,32 @@ const Home = () => {
 
     return (
         <>
-            <Introduction>
-                <div>
-                    <Title>Olá!</Title>
-                    <Text>
-                        Me chamo Pedro Santos, <br />
-                        sou um 
-                            <span> {text} </span>
-                            , <br />
-                        e esse é o meu portifólio.
-                    </Text>
-                </div>
-                    <Images>
-                        <img src={image1} />
-                        <img src={image2} />
-                        <img src={image3} />
-                    </Images>
-            </Introduction>
-            <Button onMouseOver={() => setNumeroBotao(1)} onMouseLeave={() => setNumeroBotao(0)}>Sobre mim</Button>
-            <Button onMouseOver={() => setNumeroBotao(2)} onMouseLeave={() => setNumeroBotao(0)}>Habilidades</Button>
-            <Button onMouseOver={() => setNumeroBotao(3)} onMouseLeave={() => setNumeroBotao(0)}>Projetos</Button>
-            <Button onMouseOver={() => setNumeroBotao(4)} onMouseLeave={() => setNumeroBotao(0)}>Pensamentos</Button>
+            <CelContainer>
+                <Introduction data-aos="zoom-in">
+                    <div>
+                        <Title>Olá!</Title>
+                        <Text>
+                            Me chamo Pedro Santos, <br />
+                            sou um 
+                                <span> {text} </span>
+                                , <br />
+                            e esse é o meu portifólio.
+                        </Text>
+                        <Mensage>Para uma melhor experiencia, utilize um computador! Obrigado!</Mensage>
+                    </div>
+                        <Images data-aos="zoom-in">
+                            <img src={image1} />
+                            <img src={image2} />
+                            <img src={image3} />
+                        </Images>
+                </Introduction>
+                <Button data-aos="zoom-in" onMouseOver={() => setNumeroBotao(1)} onMouseLeave={() => setNumeroBotao(0)}>Sobre mim</Button>
+                <Button data-aos="zoom-in" onMouseOver={() => setNumeroBotao(2)} onMouseLeave={() => setNumeroBotao(0)}>Habilidades</Button>
+                <Button data-aos="zoom-in" onMouseOver={() => setNumeroBotao(3)} onMouseLeave={() => setNumeroBotao(0)}>Projetos</Button>
+                <Button data-aos="zoom-in" onMouseOver={() => setNumeroBotao(4)} onMouseLeave={() => setNumeroBotao(0)}>Pensamentos</Button>
 
-            {alteraTexto()}
+                {alteraTexto()}
+            </CelContainer>
         </>
     )
 }

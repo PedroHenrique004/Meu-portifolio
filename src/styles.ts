@@ -1,4 +1,4 @@
-import styled, { createGlobalStyle } from "styled-components";
+import { createGlobalStyle } from "styled-components";
 
 import background from "./images/fundo.png"
 
@@ -17,12 +17,21 @@ const  GlobalStyle = createGlobalStyle`
         list-style: none;
         font-family: Raleway, sans-serif;
         color: ${Colors.textColor};
+        overflow: hidden;     
     }
 
     .container {
         max-width: 1450px;
         width: 100%;
         margin: 0 auto;
+
+        @media (max-width: 768px) {
+            max-width: 100%;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+        }
+
     }
 
     .fundo {
@@ -34,7 +43,12 @@ const  GlobalStyle = createGlobalStyle`
         max-width: 1920px;
         width: 100%;
         height: 100vh;
+
+        @media (max-width: 768px) {
+            height: 100vh;
+        }
     }   
 `
 
 export default GlobalStyle
+
