@@ -1,12 +1,13 @@
 import styled from "styled-components";
-import { Colors } from "../styles";
+import { Colors } from "../../styles";
 
 export const Introduction = styled.div`
     display: flex;
-    padding-top: 110px;
+    padding-top: 75px;
 
     @media (max-width: 768px) {
-        padding-top: 55px;
+        padding-top: 40px;
+        margin: 0 auto;
     }
 
 `
@@ -14,7 +15,7 @@ export const Introduction = styled.div`
 export const CelContainer = styled.div`
 
     @media (max-width: 768px) {
-        max-width: 80%;
+        max-width: 70%;
         width: 100%;
         margin: 0 auto;
     }  
@@ -43,11 +44,8 @@ export const Images = styled.div`
         grid-row: 1;
     }
 
-    @media (max-width: 768px) {
-
-        img {
+    @media (max-width: 768px) {  
             display: none;
-        }
     }
 `
 
@@ -65,9 +63,9 @@ export const Title = styled.h1`
 
 export const Text = styled.p`
     font-weight: bold;
-    font-size: 64px;
+    font-size: 56px;
     margin-top: 85px;
-    margin-bottom: 163px;
+    margin-bottom: 120px;
     line-height: 80px;
     letter-spacing: 1px;
     width: 850px;
@@ -77,8 +75,9 @@ export const Text = styled.p`
     }
 
     @media (max-width: 768px) {
-        font-size: 24px;
-        line-height: 30px;
+        width: auto;
+        font-size: 16px;
+        line-height: 20px;
         letter-spacing: 1px;
         margin-bottom: 50px;
         margin-top: 50px;
@@ -105,7 +104,11 @@ export const Button = styled.button`
         font-size: 18px;
         max-width: 300px;
         width: 100%;
-        margin-bottom: 30px;
+        margin: 0 auto;
+        margin-bottom: 16px;
+        margin-right: 0px;
+        margin-top: 16px;
+        
     }
     
 `
@@ -126,7 +129,7 @@ export const Mensage = styled.p`
 
     @media (max-width: 768px) {
         display: block;
-        margin-bottom: 16px;
+        margin-bottom: 20px;
     }
 `
 

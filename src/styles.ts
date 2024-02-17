@@ -17,19 +17,21 @@ const  GlobalStyle = createGlobalStyle`
         list-style: none;
         font-family: Raleway, sans-serif;
         color: ${Colors.textColor};
-        overflow: hidden;     
+
+        margin: 0 auto;
+
     }
 
     .container {
+        display: flex;
         max-width: 1450px;
         width: 100%;
-        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
 
         @media (max-width: 768px) {
             max-width: 100%;
             width: 100%;
-            justify-content: center;
-            align-items: center;
         }
 
     }
@@ -42,10 +44,10 @@ const  GlobalStyle = createGlobalStyle`
         background-position: center;
         max-width: 1920px;
         width: 100%;
-        height: 100vh;
+        min-height: 100vh;
 
         @media (max-width: 768px) {
-            height: 100vh;
+            min-height: 100vh;
         }
     }   
 `

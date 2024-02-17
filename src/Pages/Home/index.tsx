@@ -1,5 +1,5 @@
 import { useTypewriter } from "react-simple-typewriter"
-import React, { useEffect, useState } from "react"
+import { useEffect, useState } from "react"
 import AOS from 'aos'
 import 'aos/dist/aos.css';
 
@@ -7,11 +7,15 @@ import 'aos/dist/aos.css';
 import { Button, Text, Title, Introduction, Images, TextHover, CelContainer, Mensage } from "./styles"
 
 
-import image1 from "../images/fork.png"
-import image2 from "../images/computer.png"
-import image3 from "../images/code.png"
+import image1 from "../../images/fork.png"
+import image2 from "../../images/computer.png"
+import image3 from "../../images/code.png"
+import Links from "../../components/Links";
+import { useNavigate } from "react-router-dom";
 
 const Home = () => {
+    const navigate = useNavigate();
+
     useEffect(() => {
         AOS.init({
             duration: 2000,
@@ -45,6 +49,7 @@ const Home = () => {
     return (
         <>
             <CelContainer>
+                <Links />
                 <Introduction data-aos="zoom-in">
                     <div>
                         <Title>Olá!</Title>
@@ -55,7 +60,7 @@ const Home = () => {
                                 , <br />
                             e esse é o meu portifólio.
                         </Text>
-                        <Mensage>Para uma melhor experiencia, utilize um computador! Obrigado!</Mensage>
+                        <Mensage>Para uma melhor experiência, recomendo utilizar um computador! Obrigado!</Mensage>
                     </div>
                         <Images data-aos="zoom-in">
                             <img src={image1} />
@@ -63,10 +68,10 @@ const Home = () => {
                             <img src={image3} />
                         </Images>
                 </Introduction>
-                <Button data-aos="zoom-in" onMouseOver={() => setNumeroBotao(1)} onMouseLeave={() => setNumeroBotao(0)}>Sobre mim</Button>
-                <Button data-aos="zoom-in" onMouseOver={() => setNumeroBotao(2)} onMouseLeave={() => setNumeroBotao(0)}>Habilidades</Button>
-                <Button data-aos="zoom-in" onMouseOver={() => setNumeroBotao(3)} onMouseLeave={() => setNumeroBotao(0)}>Projetos</Button>
-                <Button data-aos="zoom-in" onMouseOver={() => setNumeroBotao(4)} onMouseLeave={() => setNumeroBotao(0)}>Pensamentos</Button>
+                <Button data-aos="zoom-in" onMouseOver={() => setNumeroBotao(1)} onMouseLeave={() => setNumeroBotao(0)} onClick={() => navigate('/aboutMe')}>Apresentação</Button>
+                <Button data-aos="zoom-in" onMouseOver={() => setNumeroBotao(2)} onMouseLeave={() => setNumeroBotao(0)} onClick={() => navigate('/habilidades')}>Habilidades</Button>
+                <Button data-aos="zoom-in" onMouseOver={() => setNumeroBotao(3)} onMouseLeave={() => setNumeroBotao(0)} onClick={() => navigate('/projetos')}>Projetos</Button>
+                <Button data-aos="zoom-in" onMouseOver={() => setNumeroBotao(4)} onMouseLeave={() => setNumeroBotao(0)} onClick={() => navigate('/thoughts')} >Pensamentos</Button>
 
                 {alteraTexto()}
             </CelContainer>
