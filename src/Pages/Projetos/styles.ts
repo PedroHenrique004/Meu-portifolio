@@ -71,4 +71,15 @@ export const LinksContainer = styled.div`
     a:hover {
         font-size: 18px;
     }
+
+    @media (max-width:768px) {
+        display: flex;
+        flex-direction: column;
+
+        a {
+            margin-top: 16px;
+            text-decoration: none;
+            margin-bottom: 0;
+        }
+    }
 `
