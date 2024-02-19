@@ -59,6 +59,10 @@ export const Title = styled.h1`
         font-size: 64px;
     }
 
+    @media (max-height: 750px) {
+        font-size: 32px;
+    }
+
 `
 
 export const Text = styled.p`
@@ -81,6 +85,19 @@ export const Text = styled.p`
         letter-spacing: 1px;
         margin-bottom: 50px;
         margin-top: 50px;
+    }
+
+    @media (max-height: 750px) {
+        width: auto;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 1px;
+        margin-bottom: 20px;
+        margin-top: 20px;  
+    } 
+
+    @media (max-height: 670px) {
+        font-size: 14px;
     }
 `
 
@@ -110,7 +127,16 @@ export const Button = styled.button`
         margin-top: 16px;
         
     }
-    
+
+    @media (max-height: 750px) {
+        font-size: 18px;
+        max-width: 300px;
+        width: 100%;
+        margin: 0 auto;
+        margin-right: 0px;
+        margin-top: 16px;
+        
+    }   
 `
 
 export const TextHover = styled.p`
@@ -130,6 +156,10 @@ export const Mensage = styled.p`
     @media (max-width: 768px) {
         display: block;
         margin-bottom: 20px;
+    }
+
+    @media (max-height: 670px) {
+        font-size: 12px;
     }
 `
 
