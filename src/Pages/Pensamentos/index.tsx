@@ -26,7 +26,7 @@ const Pensamentos = () => {
                                     </Title>
                                     <About>
                                         <p>{item.resume}</p>
-                                        <a href={item.link}>Ler sobre</a>
+                                        <a href={item.link} target="blank">Ler sobre</a>
                                     </About>
                                 </>
                             :

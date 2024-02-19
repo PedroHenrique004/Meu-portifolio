@@ -12,9 +12,14 @@ import uniShield from "../../images/uniShield.jpg"
 
 export const accordion = [
     {
+        title: 'Conheça o repositório dos artigos',
+        resume: 'Deixarei o acesso direto ao repositório que contém uma cópia dos artigos caso queiram dar uma olhada',
+        link: 'https://github.com/PedroHenrique004/Artigos'
+    },
+    {
         title: 'Ilusões da carreira de T.I',
         resume: 'Aqui escrevi um pouco sobre as ilusões que eu tinha do mundo da T.I',
-        link: '#'
+        link: 'https://ilusoes-ti.vercel.app'
     },
 ]
 
