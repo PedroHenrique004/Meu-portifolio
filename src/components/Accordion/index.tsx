@@ -9,6 +9,7 @@ import agendaContatos from "../../images/agendaContatos.jpg"
 import listaTarefasReact from "../../images/listaTarefasReact.jpg"
 import listaC from "../../images/ListaC.jpg"
 import uniShield from "../../images/uniShield.jpg"
+import agendaReact from "../../images/lista-react-redux.jpg"
 
 export const accordion = [
     {
@@ -29,6 +30,12 @@ export const FrontProjects = [
         title: 'Lista de tarefas React',
         resume: 'Lista de tarefas dinâmica usando o React e outras ferramentas como o Redux',
         link: 'https://minhas-tarefas-sable.vercel.app'
+    },
+    {
+        imagem: agendaReact,
+        title: 'Lista de contatos com Redux',
+        resume: 'Lista de contatos dinâmica usando o React e o Redux para edição, remoção e adição',
+        link: 'https://lista-telefonica-react-chi.vercel.app'
     },
     {
         imagem: agendaContatos,
