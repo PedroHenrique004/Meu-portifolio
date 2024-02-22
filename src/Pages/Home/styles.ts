@@ -103,10 +103,10 @@ export const Text = styled.p`
 
 
 export const Button = styled.button`
-    padding: 18px 40px;
+    padding: 12px 30px;
     background-color: rgba(0, 0, 0, 0.5);
     font-weight: bold;
-    font-size: 36px;
+    font-size: 24px;
     margin-right: 50px;
     border-radius: 12px;
     border: 1px solid ${Colors.buttonColor};

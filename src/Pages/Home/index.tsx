@@ -43,6 +43,9 @@ const Home = () => {
         else if (numeroBotao === 4) {
             return <TextHover>Leia alguns artigos que escrevi sobre programação e tecnologia</TextHover>
         }
+        else if (numeroBotao === 5) {
+            return <TextHover>Aqui está minha lista de certificados</TextHover>
+        }
         return null;
     }
 
@@ -71,7 +74,8 @@ const Home = () => {
                 <Button data-aos="zoom-in" onMouseOver={() => setNumeroBotao(1)} onMouseLeave={() => setNumeroBotao(0)} onClick={() => navigate('/aboutMe')}>Apresentação</Button>
                 <Button data-aos="zoom-in" onMouseOver={() => setNumeroBotao(2)} onMouseLeave={() => setNumeroBotao(0)} onClick={() => navigate('/habilidades')}>Habilidades</Button>
                 <Button data-aos="zoom-in" onMouseOver={() => setNumeroBotao(3)} onMouseLeave={() => setNumeroBotao(0)} onClick={() => navigate('/projetos')}>Projetos</Button>
-                <Button data-aos="zoom-in" onMouseOver={() => setNumeroBotao(4)} onMouseLeave={() => setNumeroBotao(0)} onClick={() => navigate('/thoughts')} >Pensamentos</Button>
+                <Button data-aos="zoom-in" onMouseOver={() => setNumeroBotao(4)} onMouseLeave={() => setNumeroBotao(0)} onClick={() => navigate('/pensamentos')} >Pensamentos</Button>
+                <Button data-aos="zoom-in" onMouseOver={() => setNumeroBotao(5)} onMouseLeave={() => setNumeroBotao(0)} onClick={() => navigate('/certificados')} >Certificados</Button>
 
                 {alteraTexto()}
             </CelContainer>

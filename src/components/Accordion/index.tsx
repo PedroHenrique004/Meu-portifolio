@@ -10,6 +10,22 @@ import listaTarefasReact from "../../images/listaTarefasReact.jpg"
 import listaC from "../../images/ListaC.jpg"
 import uniShield from "../../images/uniShield.jpg"
 import agendaReact from "../../images/lista-react-redux.jpg"
+import ingles from "../../images/CertificadoCli.jpg"
+import logica from "../../images/CertificadoLogica.jpg"
+import logica2 from "../../images/logica.jpg"
+
+export const CertificadosList = [
+    {
+        imagem: ingles,
+        title: 'Curso de inglês do básico ao avançado - Cli! Centro de línguas',
+        resume: 'Curso de inglês do básico ao avançado onde pude fazer vários projetos, redações, provas discursivas e de conversação, foram 4 anos onde aprendi muito sobre a língua inglesa e como usá-la',
+    },
+    {
+        imagem: logica,
+        title: 'Curso de lógica de programação - Udemy',
+        resume: 'Pequeno curso onde aprendi a usar lógica de programação para resolver testes, muitos deles estão no meu repositório de lógica de programação, nele aprendi o básico de várias linguagens como Python, C, Java, Javascript, portugol e mais',
+    }
+]
 
 export const accordion = [
     {
@@ -93,6 +109,12 @@ export const BackProjects = [
         title: 'Lista de tarefas em C',
         resume: 'Projeto final da matéria de algoritmos e lógica de programação',
         link: 'https://github.com/PedroHenrique004/Projeto_Final_De_Algoritmos'
+    },
+    {
+        imagem: logica2,
+        title: 'Lista de problemas que resolvi para treinar a lógica',
+        resume: 'Repositório onde guardei os problemas que resolvi no curso livre da Udemy',
+        link: 'https://github.com/PedroHenrique004/Logica_De_Programacao'
     }
 ]
 

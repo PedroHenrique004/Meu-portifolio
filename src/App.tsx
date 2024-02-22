@@ -6,6 +6,7 @@ import Pensamentos from "./Pages/Pensamentos";
 import Habilidades from "./Pages/Habilidades";
 import path from "path";
 import Projetos from "./Pages/Projetos";
+import Certificados from "./Pages/Certificados";
 
 function App() {
 
@@ -19,7 +20,7 @@ function App() {
       element: <AboutMe />,
     },
     {
-      path: '/thoughts',
+      path: '/pensamentos',
       element: <Pensamentos />,
     },
     {
@@ -29,6 +30,10 @@ function App() {
     {
       path: '/projetos',
       element: <Projetos />
+    },
+    {
+      path: '/certificados',
+      element: <Certificados />
     }
   ])
 
