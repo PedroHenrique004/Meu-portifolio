@@ -82,7 +82,7 @@ export const Title = styled.h1`
     }
 
     @media (max-width: 768px), (max-width: 1024px) {
-        font-size: 64px;
+        font-size: 56px;
     }
 
     @media (max-height: 750px) {
@@ -101,8 +101,8 @@ export const Title = styled.h1`
 export const Text = styled.p`
     font-weight: bold;
     font-size: 56px;
-    margin-top: 85px;
-    margin-bottom: 80px;
+    margin-top: 60px;
+    margin-bottom: 10px;
     line-height: 80px;
     letter-spacing: 1px;
     width: 850px;
