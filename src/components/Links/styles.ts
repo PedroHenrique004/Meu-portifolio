@@ -1,5 +1,4 @@
 import styled from "styled-components"
-import { Colors } from "../../styles"
 
 
 export const List = styled.ul`
@@ -42,6 +41,52 @@ export const List = styled.ul`
             margin-left: 8px;
         }
     }
+
+    
+
+    @media screen and (max-width: 1280px) and (max-height: 800px) {
+
+        a {
+            height: 24px;
+        }
+
+        img {
+            max-width: 24px;
+        }
+
+        li {
+            padding: 0px;
+            margin: 0 8px;
+            display: flex;
+            align-items: center;
+        }
+
+        button {
+            margin-left: 8px;   
+        }
+    }
+
+    @media screen and (max-width: 1024px) and (max-height: 600px) {
+
+        a {
+            height: 24px;
+        }
+
+        img {
+            max-width: 24px;
+        }
+
+        li {
+            padding: 0px;
+            margin: 0 8px;
+            display: flex;
+            align-items: center;
+        }
+
+        button {
+            margin-left: 8px;
+        }
+        }
 `
 
 export const Button = styled.button`
@@ -64,6 +109,18 @@ export const Button = styled.button`
     @media (max-width: 768px) {
         img {
             max-width: 24px;
+        }
+    }
+
+    @media screen and (max-width: 1024px) and (max-height: 600px) {
+        img {
+            max-width: 32px;
+        }
+    }
+
+    @media screen and (max-width: 1280px) and (max-height: 800px) {
+        img {
+            max-width: 32px;
         }
     }
 `

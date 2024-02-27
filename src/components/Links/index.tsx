@@ -7,6 +7,7 @@ import linkedin from "../../images/linkedin.png"
 import whatsapp from "../../images/whatsapp.png"
 import arrow from "../../images/arrow.png"
 import uparrow from "../../images/uparrow.png"
+import React from "react"
 
      
 const Links = () => {

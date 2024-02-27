@@ -4,7 +4,7 @@ import AOS from 'aos'
 import 'aos/dist/aos.css';
 
 
-import { Button, Text, Title, Introduction, Images, TextHover, CelContainer, Mensage } from "./styles"
+import { Button, Text, Title, Introduction, Images, TextHover, CelContainer, Mensage, ButtonDiv } from "./styles"
 
 
 import image1 from "../../images/fork.png"
@@ -71,19 +71,19 @@ const Home = () => {
                             <img src={image3} />
                         </Images>
                 </Introduction>
-                <Button data-aos="zoom-in" onMouseOver={() => setNumeroBotao(1)} onMouseLeave={() => setNumeroBotao(0)} onClick={() => navigate('/aboutMe')}>Apresentação</Button>
-                <Button data-aos="zoom-in" onMouseOver={() => setNumeroBotao(2)} onMouseLeave={() => setNumeroBotao(0)} onClick={() => navigate('/habilidades')}>Habilidades</Button>
-                <Button data-aos="zoom-in" onMouseOver={() => setNumeroBotao(3)} onMouseLeave={() => setNumeroBotao(0)} onClick={() => navigate('/projetos')}>Projetos</Button>
-                <Button data-aos="zoom-in" onMouseOver={() => setNumeroBotao(4)} onMouseLeave={() => setNumeroBotao(0)} onClick={() => navigate('/pensamentos')} >Pensamentos</Button>
-                <Button data-aos="zoom-in" onMouseOver={() => setNumeroBotao(5)} onMouseLeave={() => setNumeroBotao(0)} onClick={() => navigate('/certificados')} >Certificados</Button>
+                <ButtonDiv>
+                    <Button data-aos="zoom-in" onMouseOver={() => setNumeroBotao(1)} onMouseLeave={() => setNumeroBotao(0)} onClick={() => navigate('/aboutMe')}>Apresentação</Button>
+                    <Button data-aos="zoom-in" onMouseOver={() => setNumeroBotao(2)} onMouseLeave={() => setNumeroBotao(0)} onClick={() => navigate('/habilidades')}>Habilidades</Button>
+                    <Button data-aos="zoom-in" onMouseOver={() => setNumeroBotao(3)} onMouseLeave={() => setNumeroBotao(0)} onClick={() => navigate('/projetos')}>Projetos</Button>
+                    <Button data-aos="zoom-in" onMouseOver={() => setNumeroBotao(4)} onMouseLeave={() => setNumeroBotao(0)} onClick={() => navigate('/pensamentos')} >Pensamentos</Button>
+                    <Button data-aos="zoom-in" onMouseOver={() => setNumeroBotao(5)} onMouseLeave={() => setNumeroBotao(0)} onClick={() => navigate('/certificados')} >Certificados</Button>
+                </ButtonDiv>
 
                 {alteraTexto()}
             </CelContainer>
         </>
     )
 }
-
-// data-aos="zoom-in-right"
 
 
 export default Home;
