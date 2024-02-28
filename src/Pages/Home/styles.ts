@@ -81,10 +81,6 @@ export const Title = styled.h1`
         font-size: 16px;
     }
 
-    @media (max-width: 768px), (max-width: 1024px) {
-        font-size: 56px;
-    }
-
     @media (max-height: 750px) {
         font-size: 32px;
     }
@@ -96,6 +92,11 @@ export const Title = styled.h1`
     @media screen and (max-width: 1024px) and (max-height: 600px) {
         font-size: 32px;
     }
+
+    @media (max-width: 768px), (max-width: 1024px) {
+        font-size: 40px;
+    }
+
 `
 
 export const Text = styled.p`
@@ -146,6 +147,12 @@ export const Text = styled.p`
         letter-spacing: 1px;
     }
 
+    @media (max-width: 768px), (max-width: 1024px) {
+        font-size: 12px;
+        line-height: 15px;
+        margin: 24px auto;
+    }
+
     
 `
 
@@ -186,7 +193,8 @@ export const Button = styled.button`
     @media screen and (max-width: 1024px) and (max-height: 600px) {
         margin-right: 48px;
     }
-    
+
+   
 `
 
 export const TextHover = styled.p`
@@ -202,12 +210,13 @@ export const TextHover = styled.p`
 export const Mensage = styled.p`
     display: none;
 
-    @media (max-width: 768px), (max-width: 1024px) {
-        display: block;
-        margin-bottom: 20px;
+    @media (max-height: 670px) {
+        font-size: 12px;
     }
 
-    @media (max-height: 670px) {
+    @media (max-width: 768px), (max-width: 1024px) {
+        display: block;
+        margin-bottom: 0px;
         font-size: 12px;
     }
 `
@@ -226,5 +235,9 @@ export const ButtonDiv = styled.div`
     @media (max-width: 768px), (max-width: 1024px) {
         display: block;
         margin-bottom: 20px;
+
+        button {
+            margin-top: 24px;
+        }
     }
 `
