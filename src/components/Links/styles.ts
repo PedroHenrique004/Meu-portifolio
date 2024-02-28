@@ -1,6 +1,5 @@
 import styled from "styled-components"
 
-
 export const List = styled.ul`
     @keyframes fadeIn {
         0% {opacity: 0;}
@@ -21,12 +20,8 @@ export const List = styled.ul`
     }
 
     @media (max-width: 768px) {
-
-        a {
+        a, img {
             height: 24px;
-        }
-
-        img {
             max-width: 24px;
         }
 
@@ -42,51 +37,41 @@ export const List = styled.ul`
         }
     }
 
-    
-
-    @media screen and (max-width: 1280px) and (max-height: 800px) {
-
-        a {
-            height: 24px;
-        }
-
-        img {
-            max-width: 24px;
+    @media (min-width: 769px) and (max-width: 1024px) {
+        a, img {
+            height: 20px;
+            max-width: 20px;
         }
 
         li {
             padding: 0px;
-            margin: 0 8px;
+            margin: 0 6px;
             display: flex;
             align-items: center;
         }
 
         button {
-            margin-left: 8px;   
+            margin-left: 6px;
         }
     }
 
-    @media screen and (max-width: 1024px) and (max-height: 600px) {
-
-        a {
-            height: 24px;
-        }
-
-        img {
-            max-width: 24px;
+    @media (min-width: 1025px) and (max-width: 1280px) {
+        a, img {
+            height: 20px;
+            max-width: 20px;
         }
 
         li {
             padding: 0px;
-            margin: 0 8px;
+            margin: 0 6px;
             display: flex;
             align-items: center;
         }
 
         button {
-            margin-left: 8px;
+            margin-left: 6px;
         }
-        }
+    }
 `
 
 export const Button = styled.button`
@@ -112,15 +97,15 @@ export const Button = styled.button`
         }
     }
 
-    @media screen and (max-width: 1024px) and (max-height: 600px) {
+    @media (min-width: 769px) and (max-width: 1024px) {
         img {
-            max-width: 32px;
+            max-width: 20px;
         }
     }
 
-    @media screen and (max-width: 1280px) and (max-height: 800px) {
+    @media (min-width: 1025px) and (max-width: 1280px) {
         img {
-            max-width: 32px;
+            max-width: 20px;
         }
     }
 `

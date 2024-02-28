@@ -217,5 +217,14 @@ export const ButtonDiv = styled.div`
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         gap: 32px;
+
+        button {
+            margin-top: 48px;
+        }
+    }
+
+    @media (max-width: 768px), (max-width: 1024px) {
+        display: block;
+        margin-bottom: 20px;
     }
 `
