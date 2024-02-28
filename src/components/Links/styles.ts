@@ -19,23 +19,6 @@ export const List = styled.ul`
         margin: 0 24px;     
     }
 
-    @media (max-width: 768px) {
-        a, img {
-            height: 24px;
-            max-width: 24px;
-        }
-
-        li {
-            padding: 0px;
-            margin: 0 8px;
-            display: flex;
-            align-items: center;
-        }
-
-        button {
-            margin-left: 8px;
-        }
-    }
 
     @media (min-width: 769px) and (max-width: 1024px) {
         a, img {
@@ -70,6 +53,24 @@ export const List = styled.ul`
 
         button {
             margin-left: 6px;
+        }
+    }
+
+    @media (max-width: 768px) {
+        a, img {
+            height: 24px;
+            max-width: 24px;
+        }
+
+        li {
+            padding: 0px;
+            margin: 0 8px;
+            display: flex;
+            align-items: center;
+        }
+
+        button {
+            margin-left: 8px;
         }
     }
 `
@@ -91,11 +92,6 @@ export const Button = styled.button`
     padding: 0 6px;
     padding-top: 8px;
 
-    @media (max-width: 768px) {
-        img {
-            max-width: 24px;
-        }
-    }
 
     @media (min-width: 769px) and (max-width: 1024px) {
         img {
@@ -106,6 +102,12 @@ export const Button = styled.button`
     @media (min-width: 1025px) and (max-width: 1280px) {
         img {
             max-width: 20px;
+        }
+    }
+
+    @media (max-width: 768px) {
+        img {
+            max-width: 24px;
         }
     }
 `
