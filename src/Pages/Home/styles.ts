@@ -198,14 +198,20 @@ export const Button = styled.button`
 `
 
 export const TextHover = styled.p`
-    font-size: 20px;
-    margin-top: 48px;
+    display: none; 
+
+    @media (min-width: 1280px) {
+        display: block; 
+        font-size: 20px;
+        margin-top: 48px;
+    }
 
     @media (max-width: 768px), (max-width: 1024px) {
         margin-top: 24px;
         font-size: 14px;
     }
 `
+
 
 export const Mensage = styled.p`
     display: none;
