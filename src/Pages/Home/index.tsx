@@ -12,6 +12,7 @@ import image2 from "../../images/computer.png"
 import image3 from "../../images/code.png"
 import Links from "../../components/Links";
 import { useNavigate } from "react-router-dom";
+import React from "react";
 
 const Home = () => {
     const navigate = useNavigate();

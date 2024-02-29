@@ -7,6 +7,22 @@ export const BigContainer = styled.div`
     justify-content: center;
     align-items: center;
 
+    @media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+        max-width: 80%;
+        width: 100%;
+        background-color: rgba(47, 54, 64, 0.5);
+
+        h2 {
+            font-size: 20px;
+        }
+
+        p {
+            font-size: 12px;
+            line-height: 25px;
+        }
+
+    }
+
     @media (max-width: 768px) {
         max-width: 80%;
         width: 100%;
@@ -62,6 +78,19 @@ export const TextContainer = styled.div`
     line-height: 40px;
     position: relative;
     padding-bottom: 100px;
+
+    @media screen and (min-width: 819px) and (max-width: 821px) and (orientation: portrait) {
+        width: 80%;
+    }
+    
+    @media screen and (min-width: 834px) and (max-width: 1194px) and (orientation: portrait) {
+        width: 80%;
+    }
+    
+
+    @media screen and (min-width: 819px) and (max-width: 821px) and (orientation: portrait) {
+        width: 80%;
+    }
     
 
     @media (max-width: 768px) {

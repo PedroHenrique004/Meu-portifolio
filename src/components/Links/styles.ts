@@ -19,13 +19,12 @@ export const List = styled.ul`
         margin: 0 24px;     
     }
 
+    a, img {
+        height: 20px;
+        max-width: 20px;
+    }
 
     @media (min-width: 769px) and (max-width: 1024px) {
-        a, img {
-            height: 20px;
-            max-width: 20px;
-        }
-
         li {
             padding: 0px;
             margin: 0 6px;
@@ -40,8 +39,8 @@ export const List = styled.ul`
 
     @media (min-width: 1025px) and (max-width: 1280px) {
         a, img {
-            height: 20px;
-            max-width: 20px;
+            height: 24px;
+            max-width: 24px;
         }
 
         li {
@@ -56,10 +55,10 @@ export const List = styled.ul`
         }
     }
 
-    @media (max-width: 768px) {
+    @media (min-width: 1281px) {
         a, img {
-            height: 24px;
-            max-width: 24px;
+            height: 28px;
+            max-width: 28px;
         }
 
         li {
@@ -92,22 +91,20 @@ export const Button = styled.button`
     padding: 0 6px;
     padding-top: 8px;
 
-
-    @media (min-width: 769px) and (max-width: 1024px) {
-        img {
-            max-width: 20px;
-        }
+    img {
+        max-width: 20px;
+        width: 100%;
     }
 
     @media (min-width: 1025px) and (max-width: 1280px) {
         img {
-            max-width: 20px;
+            max-width: 24px;
         }
     }
 
-    @media (max-width: 768px) {
+    @media (min-width: 1281px) {
         img {
-            max-width: 24px;
+            max-width: 28px;
         }
     }
 `

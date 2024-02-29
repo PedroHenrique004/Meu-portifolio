@@ -222,6 +222,17 @@ export const Mensage = styled.p`
 `
 
 export const ButtonDiv = styled.div`
+
+    @media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+        margin: 0 auto;
+        margin-top: 25px;
+        
+        button {
+            margin-left: 25%; 
+        }
+    }
+
+
     @media screen and (max-width: 1280px) and (max-height: 800px) {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -240,4 +251,7 @@ export const ButtonDiv = styled.div`
             margin-top: 24px;
         }
     }
+
+
+    
 `
