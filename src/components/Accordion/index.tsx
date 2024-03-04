@@ -121,8 +121,8 @@ export const BackProjects = [
 export const ExtraProjects = [
     {
         imagem: uniShield,
-        title: 'Aplicativo UniShield',
-        resume: 'Projeto final da matéria de Engenharia de Software onde criamos um protótipo de um aplicativo que reforçaria a segurança nas faculdades',
+        title: 'Protótipo do aplicativo UniShield',
+        resume: 'Projeto final da matéria de Engenharia de Software onde criamos um protótipo de um aplicativo que reforçaria a segurança nas faculdades, projeto o quel me deu diversas habilidades e noções de como é o mundo real na programação.',
         link: 'https://www.figma.com/proto/C1ixxq8o55q2p9JlJRRapT/Prototipação---TESTE?node-id=284-685&starting-point-node-id=284%3A685'
     }
 ]
