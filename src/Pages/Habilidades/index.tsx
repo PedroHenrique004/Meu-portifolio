@@ -48,6 +48,12 @@ const Habilidades = () => {
                         <h1>Minhas Soft Skills</h1>
                         <List>
                             <tr>
+                                <Skill><span>Trabalho em equipe</span></Skill>
+                                <td>Trabalhar em equipe é uma das minhas grandes paixões. Acredito que quando unimos nossas habilidades e conhecimentos, somos capazes de alcançar resultados incríveis. A colaboração permite que aprendamos uns com os outros, superemos desafios e alcancemos objetivos comuns. Quanto mais trabalho em equipe, mais percebo o quão valioso é cada membro e como cada um contribui para o sucesso do grupo. É gratificante ver como a cooperação pode transformar ideias individuais em realizações coletivas</td>
+                            </tr>
+                        </List>
+                        <List>
+                            <tr>
                                 <Skill><span>Comunicação</span></Skill>
                                 <td>Gosto muito de conversar e interagir com as pessoas, quanto mais tenho contatos com novas pessoas mais sinto que melhoro a eficiencia e a clareza da minha comunicação, facilitando o trabalho em equipe, entendimentos das funções atribuidas a mim e a resolução de problemas em grupo </td>
                             </tr>
@@ -62,12 +68,6 @@ const Habilidades = () => {
                             <tr>
                                 <Skill><span>Resolução de problemas</span></Skill>
                                 <td>Como ressaltei, sempre gostei de matématica por sua lógica nos problemas e carrego esse amor comigo até hoje, umas das maiores felicidades que exite é quando um problema complicado a primeira vista é resolvido com uma lógica bem elaborada por trás </td>
-                            </tr>
-                        </List>
-                        <List>
-                            <tr>
-                                <Skill><span>Flexibilidade</span></Skill>
-                                <td>O mundo da tecnologia é repleto de mundanças, a qualquer momento pode surgir uma nova tendência no mercado e por isso a minha habilidade de conseguir me adaptar e aprender a utilizar novas ferramentas é um aspecto muito importante e que valorizo muito </td>
                             </tr>
                         </List>
                         <List>

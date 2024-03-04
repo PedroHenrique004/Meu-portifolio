@@ -24,9 +24,9 @@ const Home = () => {
     }, []);
 
     const [text] = useTypewriter({
-        words: ['Desenvolvedor', 'Pesquisador', 'Solucionador', 'Explorador', 'Eterno aprendiz','Programador'],
+        words: ['Desenvolvedor', 'Pesquisador', 'Solucionador', 'Explorador', 'Eterno estudante','Programador'],
         typeSpeed: 120,
-        deleteSpeed: 120,
+        deleteSpeed: 200,
     });
 
     const [numeroBotao, setNumeroBotao] = useState(0)
@@ -76,7 +76,7 @@ const Home = () => {
                     <Button data-aos="zoom-in" onMouseOver={() => setNumeroBotao(1)} onMouseLeave={() => setNumeroBotao(0)} onClick={() => navigate('/aboutMe')}>Apresentação</Button>
                     <Button data-aos="zoom-in" onMouseOver={() => setNumeroBotao(2)} onMouseLeave={() => setNumeroBotao(0)} onClick={() => navigate('/habilidades')}>Habilidades</Button>
                     <Button data-aos="zoom-in" onMouseOver={() => setNumeroBotao(3)} onMouseLeave={() => setNumeroBotao(0)} onClick={() => navigate('/projetos')}>Projetos</Button>
-                    <Button data-aos="zoom-in" onMouseOver={() => setNumeroBotao(4)} onMouseLeave={() => setNumeroBotao(0)} onClick={() => navigate('/pensamentos')} >Pensamentos</Button>
+                    <Button data-aos="zoom-in" onMouseOver={() => setNumeroBotao(4)} onMouseLeave={() => setNumeroBotao(0)} onClick={() => navigate('/pensamentos')} >Artigos</Button>
                     <Button data-aos="zoom-in" onMouseOver={() => setNumeroBotao(5)} onMouseLeave={() => setNumeroBotao(0)} onClick={() => navigate('/certificados')} >Certificados</Button>
                 </ButtonDiv>
 
