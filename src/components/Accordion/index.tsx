@@ -38,6 +38,11 @@ export const accordion = [
         resume: 'Aqui escrevi um pouco sobre as ilusões que eu tinha do mundo da T.I',
         link: 'https://ilusoes-ti.vercel.app'
     },
+    {
+        title: 'Faculdade é importante para uma carreira de TI?',
+        resume: 'Minha opinião sobre esse antigo debate',
+        link: 'https://www.linkedin.com/posts/pedrosantos004_ti-programaaexaeto-tecnologia-activity-7172653861327900672-3TOU?utm_source=share&utm_medium=member_desktop'
+    },
 ]
 
 export const FrontProjects = [
