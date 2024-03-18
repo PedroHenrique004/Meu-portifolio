@@ -13,6 +13,7 @@ import agendaReact from "../../images/lista-react-redux.jpg"
 import ingles from "../../images/CertificadoCli.jpg"
 import logica from "../../images/CertificadoLogica.jpg"
 import logica2 from "../../images/logica.jpg"
+import Java1 from "../../images/image.png"
 
 export const CertificadosList = [
     {
@@ -28,11 +29,6 @@ export const CertificadosList = [
 ]
 
 export const accordion = [
-    {
-        title: 'Conheça o repositório dos artigos',
-        resume: 'Deixarei o acesso direto ao repositório que contém uma cópia dos artigos caso queiram dar uma olhada',
-        link: 'https://github.com/PedroHenrique004/Artigos'
-    },
     {
         title: 'Ilusões da carreira de T.I',
         resume: 'Aqui escrevi um pouco sobre as ilusões que eu tinha do mundo da T.I',
@@ -109,6 +105,12 @@ export const FrontProjects = [
 ]
 
 export const BackProjects = [
+    {
+        imagem: Java1,
+        title: 'Cadastro de clientes com Java',
+        resume: 'Projeto 1 do curso de Back-end com Java na EBAC',
+        link: 'https://github.com/PedroHenrique004/Java-Projects/tree/master/src/P1_Cadastro_de_Clientes'
+    },
     {
         imagem: listaC,
         title: 'Lista de tarefas em C',
