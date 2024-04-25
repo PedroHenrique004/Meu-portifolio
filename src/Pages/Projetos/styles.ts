@@ -51,10 +51,24 @@ export const ProjectText = styled.div`
     margin-left: 56px;
     max-height: 250px;
     height: 100%;
-    
+
+    a {
+        cursor: pointer;
+    }
 
     h2 {
         margin-top: 0;
+    }
+
+    div {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 12px;
+
+        @media (max-width:768px) {
+
+        grid-template-columns: 1fr;
+    }
     }
 `
 

@@ -44,7 +44,12 @@ const Projetos = () => {
                                 <ProjectText>
                                     <h2>{projeto.title}</h2>
                                     <p>{projeto.resume}</p>
-                                    <a href={projeto.link} target="blank">Ver Projeto</a>
+                                    <div>
+                                        <a href={projeto.link} target="blank">Ver Projeto</a>
+                                        {projeto.post ?
+                                            <a href={projeto.post} target="blank">Post no Linkedin</a> 
+                                            : ""}
+                                    </div>
                                 </ProjectText>
                             </ProjectContainer>
                         ))
@@ -74,7 +79,14 @@ const Projetos = () => {
                                 <ProjectText>
                                     <h2>{projeto.title}</h2>
                                     <p>{projeto.resume}</p>
-                                    <a href={projeto.link} target="blank">Ver Projeto</a>
+                                    <div>
+                                        <a href={projeto.link} target="blank">Ver Projeto</a>
+                                        <a href={projeto.gitHub} target="blank">Repositório</a>
+                                        {projeto.post ?
+                                            <a href={projeto.post} target="blank">Post no Linkedin</a> 
+                                            : ""}
+                                    </div>
+                                    
                                 </ProjectText>
                             </ProjectContainer>
                         ))
