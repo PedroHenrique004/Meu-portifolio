@@ -14,6 +14,7 @@ import react from "../../images/biblioteca.png"
 import ts from "../../images/icons8-typescript-64.png"
 import javascript from "../../images/js.png"
 import uparrow from "../../images/uparrow.png"
+import java from "../../images/java.png"
 
 const Habilidades = () => {
     const rolarParaTopo = () => {
@@ -41,11 +42,19 @@ const Habilidades = () => {
                             <HabilityCont><img src={gulp} alt="gulp" title="Gulp" /><span>Gulp</span></HabilityCont>
                             <HabilityCont><img src={ts} alt="ts" title="TypeScript" /><span>Typescript</span></HabilityCont>
                             <HabilityCont><img src={react} alt="react" title="React" /><span>React</span></HabilityCont>
+                            <HabilityCont><img src={java} alt="react" title="React" /><span>Java</span></HabilityCont>
                         </ListIcons>
                         <SubTitle>Tenho conhecimento também em tecnologias como Vue.js, Less, Grunt, JQuery, Java, C e mais</SubTitle>
                     </section>    
                     <section>
                         <h1>Minhas Soft Skills</h1>
+                        <List>
+                            <tr>
+                                <Skill><span>Racíocinio Lógico</span></Skill>
+                                <td>Desde pequeno, quebrar a cabeça com problemas lógicos é algo que me anima demais. Matemática é aquela matéria que eu curto pra caramba, sabe? É muito legal poder encarar desafios e encontrar diferentes jeitos de solucionar cada um deles. Cada problema é tipo um quebra-cabeça, e nada supera a sensação de colocar a última peça no lugar e ver tudo se encaixando perfeitamente.</td>
+
+                            </tr>
+                        </List>
                         <List>
                             <tr>
                                 <Skill><span>Trabalho em equipe</span></Skill>
