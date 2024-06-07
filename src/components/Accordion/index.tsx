@@ -16,8 +16,14 @@ import git from "../../images/CertificadoGit.jpg"
 import logica from "../../images/CertificadoLogica.jpg"
 import logica2 from "../../images/logica.jpg"
 import Java1 from "../../images/image.png"
+import Vivo from "../../images/vivo.jpeg"
 
 export const CertificadosList = [
+    {
+        imagem: Vivo,
+        title: 'Certificado Python Backend Developer',
+        resume: 'Certificado do bootcamp de Python da parceria Dio e Vivo',
+    },
     {
         imagem: git,
         title: 'Certificado de versionamento Git e GitHub',
