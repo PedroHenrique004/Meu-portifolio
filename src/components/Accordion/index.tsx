@@ -17,8 +17,14 @@ import logica from "../../images/CertificadoLogica.jpg"
 import logica2 from "../../images/logica.jpg"
 import Java1 from "../../images/image.png"
 import Vivo from "../../images/vivo.jpeg"
+import Ebac from "../../images/ebac.jpg"
 
 export const CertificadosList = [
+    {
+        Imagem: Ebac,
+        title: 'Certificado Desenvolvedor Fullstack Java/React',
+        resume: 'CERTIFICADO DE MATRÍCULA',
+    },
     {
         imagem: Vivo,
         title: 'Certificado Python Backend Developer',
