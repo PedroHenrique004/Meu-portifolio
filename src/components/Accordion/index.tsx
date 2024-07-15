@@ -21,7 +21,7 @@ import Ebac from "../../images/ebac.jpg"
 
 export const CertificadosList = [
     {
-        Imagem: Ebac,
+        imagem: Ebac,
         title: 'Certificado Desenvolvedor Fullstack Java/React',
         resume: 'CERTIFICADO DE MATRÍCULA',
     },
