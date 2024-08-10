@@ -19,7 +19,65 @@ import Java1 from "../../images/image.png"
 import Vivo from "../../images/vivo.jpeg"
 import Ebac from "../../images/ebac.jpg"
 
+import Alura_form1 from "../../images/Alura_cert/form_1_page-0001.jpg"
+
+
+import Alura_html_css1 from "../../images/Alura_cert/01 - Pedro Santos - Curso HTML e CSS_ responsividade com mobile-first - Alura_pages-to-jpg-0001.jpg"
+import Alura_html_css2 from "../../images/Alura_cert/02 -Pedro Santos - Curso HTML e CSS_ ambientes de desenvolvimento, estrutura de arquivos e tags - Alura_page-0001.jpg"
+import Alura_html_css3 from "../../images/Alura_cert/03 - Pedro Santos - Curso HTML e CSS_ cabeçalho, footer e variáveis CSS - Alura_page-0001.jpg"
+import Alura_html_css4 from "../../images/Alura_cert/04  - Pedro Santos - Curso HTML e CSS_ Classes, posicionamento e Flexbox - Alura_page-0001.jpg"
+import Alura_html_css5 from "../../images/Alura_cert/05  - Pedro Santos - Curso HTML e CSS_ praticando HTML_CSS - Alura_page-0001.jpg"
+import Alura_html_css6 from "../../images/Alura_cert/06 - Pedro Santos - Curso HTML e CSS_ trabalhando com responsividade e publicação de projetos - Alura_page-0001.jpg"
+import Alura_html_css7 from "../../images/Alura_cert/07 - CSS GRID.jpg"
+import Alura_html_css8 from "../../images/Alura_cert/08 - flexbox.jpg"
+
 export const CertificadosList = [
+    {
+        imagem: Alura_form1,
+        title: 'Formação A partir do zero: HTML e CSS para projetos web',
+        resume: '350 de 350 atividades realizadas com 6 cursos concluídos durante a formação'
+    },
+    {
+        imagem: Alura_html_css7,
+        title: 'Certificado de introdução e prática de display grid no CSS',
+        resume: 'Primeiros passos, Avançando no Grid, Grid layout responsivo, Criando Grid com barra de rolagem, Layout flexível unindo Grid e Flex'
+    },
+    {
+        imagem: Alura_html_css8,
+        title: 'Certificado de introdução e prática de CSS em Flexbox e layouts responsivos',
+        resume: 'Conhecendo o poder do Flexbox, Rodapé responsivo, Menu mobile-first, Menu flexível, Vídeos flex-grow'
+    },
+    
+    {
+        imagem: Alura_html_css2,
+        title: 'Certificado de introdução aos conceitos de ambientes de desenvolvimento, estrutura de arquivos e tags',
+        resume: 'O editor de código VSCode, Documentação e HTML, Layout e tags semânticas, Estilizando o projeto com CSS, Super estilizando o seu CSS'  
+    },
+    {
+        imagem: Alura_html_css3,
+        title: 'Certificado de introdução aos conceitos de cabeçalho, footer e variáveis CSS',
+        resume: 'Preparando o layout do projeto, Criando ícones clicáveis, Criando header e footer, Navegando entre páginas, Aplicando variáveis CSS'  
+    },
+    {
+        imagem: Alura_html_css4,
+        title: 'Certificado de introdução aos conceitos de classes, posicionamento e flexbox',
+        resume: 'Seletores e posicionamento, Posicionando mais elementos, Estilos de texto e fontes, Manipulando botões, Ajustando o espaçamento'  
+    },
+    {
+        imagem: Alura_html_css5,
+        title: 'Certificado de prática de HTML e CSS',
+        resume: 'Iniciando o projeto, A dupla HTML e CSS, Posicionando elementos, Finalizando a página, Compartilhando o projeto'  
+    },
+    {
+        imagem: Alura_html_css1,
+        title: 'Certificado de responsividade com mobile first',
+        resume: 'Aplicando a metodologia mobile-first Header, Flexbox e @import, Integrando o Carrossel com SwiperJS, Selecionando Media Queries, Produzindo CSS no desktop'
+    },
+    {
+        imagem: Alura_html_css6,
+        title: 'Certificado de responsividade com HTML e CSS',
+        resume: 'O editor de código VSCode, Documentação e HTML, Layout e tags semânticas, Estilizando o projeto com CSS, Super estilizando o seu CSS'  
+    },  
     {
         imagem: Ebac,
         title: 'Certificado Desenvolvedor Fullstack Java/React',
