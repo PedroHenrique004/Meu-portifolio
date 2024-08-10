@@ -15,6 +15,7 @@ import ts from "../../images/icons8-typescript-64.png"
 import javascript from "../../images/js.png"
 import uparrow from "../../images/uparrow.png"
 import java from "../../images/java.png"
+import sql from "../../images/icons8-sql-64.png"
 
 const Habilidades = () => {
     const rolarParaTopo = () => {
@@ -36,15 +37,16 @@ const Habilidades = () => {
                             <HabilityCont><img src={css} alt="css" title="CSS" /><span>CSS</span></HabilityCont>
                             <HabilityCont><img src={bootstrap} alt="bootstrap" title="Bootstrap" /><span>Bootstarp</span></HabilityCont>
                             <HabilityCont><img src={javascript} alt="javascript" title="JavaScript" /><span>Javascript</span></HabilityCont>
-                            <HabilityCont><img src={git} alt="git" title="Git" /><span>Git</span></HabilityCont>
-                            <HabilityCont><img src={github} alt="github" title="GitHub" /><span>GitHub</span></HabilityCont>
                             <HabilityCont><img src={sass} alt="sass" title="Sass" /><span>Sass</span></HabilityCont>
                             <HabilityCont><img src={gulp} alt="gulp" title="Gulp" /><span>Gulp</span></HabilityCont>
                             <HabilityCont><img src={ts} alt="ts" title="TypeScript" /><span>Typescript</span></HabilityCont>
-                            <HabilityCont><img src={react} alt="react" title="React" /><span>React</span></HabilityCont>
-                            <HabilityCont><img src={java} alt="react" title="React" /><span>Java</span></HabilityCont>
+                            <HabilityCont><img src={react} alt="React" title="React" /><span>React</span></HabilityCont>
+                            <HabilityCont><img src={git} alt="git" title="Git" /><span>Git</span></HabilityCont>
+                            <HabilityCont><img src={github} alt="github" title="GitHub" /><span>GitHub</span></HabilityCont>
+                            <HabilityCont><img src={java} alt="Java" title="Java" /><span>Java</span></HabilityCont>
+                            <HabilityCont><img src={sql} alt="SQL" title="SQL" /><span>SQL</span></HabilityCont>
                         </ListIcons>
-                        <SubTitle>Tenho conhecimento também em tecnologias como Vue.js, Less, Grunt, JQuery, Java, C e mais</SubTitle>
+                        <SubTitle>Tenho conhecimento também em tecnologias como Vue.js, Less, Grunt, JQuery, C, Next.js e mais</SubTitle>
                     </section>    
                     <section>
                         <h1>Minhas Soft Skills</h1>
