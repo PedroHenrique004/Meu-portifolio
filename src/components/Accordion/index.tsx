@@ -19,17 +19,17 @@ import Java1 from "../../images/image.png"
 import Vivo from "../../images/vivo.jpeg"
 import Ebac from "../../images/ebac.jpg"
 
-import Alura_form1 from "../../images/Alura_cert/form_1_page-0001.jpg"
+import Alura_form1 from "../../images/Alura_cert/form_1.jpg"
 
 
-import Alura_html_css1 from "../../images/Alura_cert/01 - Pedro Santos - Curso HTML e CSS_ responsividade com mobile-first - Alura_pages-to-jpg-0001.jpg"
-import Alura_html_css2 from "../../images/Alura_cert/02 -Pedro Santos - Curso HTML e CSS_ ambientes de desenvolvimento, estrutura de arquivos e tags - Alura_page-0001.jpg"
-import Alura_html_css3 from "../../images/Alura_cert/03 - Pedro Santos - Curso HTML e CSS_ cabeçalho, footer e variáveis CSS - Alura_page-0001.jpg"
-import Alura_html_css4 from "../../images/Alura_cert/04  - Pedro Santos - Curso HTML e CSS_ Classes, posicionamento e Flexbox - Alura_page-0001.jpg"
-import Alura_html_css5 from "../../images/Alura_cert/05  - Pedro Santos - Curso HTML e CSS_ praticando HTML_CSS - Alura_page-0001.jpg"
-import Alura_html_css6 from "../../images/Alura_cert/06 - Pedro Santos - Curso HTML e CSS_ trabalhando com responsividade e publicação de projetos - Alura_page-0001.jpg"
-import Alura_html_css7 from "../../images/Alura_cert/07 - CSS GRID.jpg"
-import Alura_html_css8 from "../../images/Alura_cert/08 - flexbox.jpg"
+import Alura_html_css1 from "../../images/Alura_cert/01.jpg"
+import Alura_html_css2 from "../../images/Alura_cert/02.jpg"
+import Alura_html_css3 from "../../images/Alura_cert/03.jpg"
+import Alura_html_css4 from "../../images/Alura_cert/04.jpg"
+import Alura_html_css5 from "../../images/Alura_cert/05.jpg"
+import Alura_html_css6 from "../../images/Alura_cert/06.jpg"
+import Alura_html_css7 from "../../images/Alura_cert/07.jpg"
+import Alura_html_css8 from "../../images/Alura_cert/08.jpg"
 
 export const CertificadosList = [
     {
