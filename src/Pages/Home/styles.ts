@@ -5,14 +5,14 @@ export const Introduction = styled.div`
     display: flex;
     padding-top: 75px;
 
-    @media (max-width: 768px), (max-width: 1024px) {
+    @media (max-width: 1024px) {
         padding-top: 40px;
         margin: 0 auto;
     }
 `
 
 export const CelContainer = styled.div`
-    @media (max-width: 768px), (max-width: 1024px) {
+    @media (max-width: 1024px) {
         max-width: 70%;
         width: 100%;
         margin: 0 auto;
@@ -40,7 +40,7 @@ export const Images = styled.div`
         grid-row: 1;
     }
 
-    @media (max-width: 768px), (max-width: 1024px) {  
+    @media (max-width: 1024px) {  
         display: none;
     }
 
@@ -68,8 +68,6 @@ export const Images = styled.div`
             grid-row: 3;
         }
     }
-
-
 `
 
 export const Title = styled.h1`
@@ -93,10 +91,9 @@ export const Title = styled.h1`
         font-size: 32px;
     }
 
-    @media (max-width: 768px), (max-width: 1024px) {
+    @media (max-width: 1024px) {
         font-size: 40px;
     }
-
 `
 
 export const Text = styled.p`
@@ -112,8 +109,7 @@ export const Text = styled.p`
         color: ${Colors.buttonColor};
     }
 
-
-    @media (max-width: 768px), (max-width: 1024px) {
+    @media (max-width: 1024px) {
         width: auto;
         font-size: 16px;
         line-height: 20px;
@@ -147,13 +143,11 @@ export const Text = styled.p`
         letter-spacing: 1px;
     }
 
-    @media (max-width: 768px), (max-width: 1024px) {
+    @media (max-width: 1024px) {
         font-size: 12px;
         line-height: 15px;
         margin: 24px auto;
     }
-
-    
 `
 
 export const Button = styled.button`
@@ -171,7 +165,7 @@ export const Button = styled.button`
         background-color: ${Colors.buttonColor};
     } 
 
-    @media (max-width: 768px), (max-width: 1024px) {
+    @media (max-width: 1024px) {
         font-size: 18px;
         max-width: 300px;
         width: 100%;
@@ -193,8 +187,6 @@ export const Button = styled.button`
     @media screen and (max-width: 1024px) and (max-height: 600px) {
         margin-right: 48px;
     }
-
-   
 `
 
 export const TextHover = styled.p`
@@ -206,12 +198,11 @@ export const TextHover = styled.p`
         margin-top: 48px;
     }
 
-    @media (max-width: 768px), (max-width: 1024px) {
+    @media (max-width: 1024px) {
         margin-top: 24px;
         font-size: 14px;
     }
 `
-
 
 export const Mensage = styled.p`
     display: none;
@@ -220,7 +211,7 @@ export const Mensage = styled.p`
         font-size: 12px;
     }
 
-    @media (max-width: 768px), (max-width: 1024px) {
+    @media (max-width: 1024px) {
         display: block;
         margin-bottom: 0px;
         font-size: 12px;
@@ -228,6 +219,10 @@ export const Mensage = styled.p`
 `
 
 export const ButtonDiv = styled.div`
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
 
     @media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
         margin: 0 auto;
@@ -237,7 +232,6 @@ export const ButtonDiv = styled.div`
             margin-left: 25%; 
         }
     }
-
 
     @media screen and (max-width: 1280px) and (max-height: 800px) {
         display: grid;
@@ -249,7 +243,7 @@ export const ButtonDiv = styled.div`
         }
     }
 
-    @media (max-width: 768px), (max-width: 1024px) {
+    @media (max-width: 1024px) {
         display: block;
         margin-bottom: 20px;
 
@@ -257,7 +251,4 @@ export const ButtonDiv = styled.div`
             margin-top: 24px;
         }
     }
-
-
-    
 `
