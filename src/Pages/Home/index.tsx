@@ -4,7 +4,7 @@ import AOS from 'aos'
 import 'aos/dist/aos.css';
 
 
-import { Button, Text, Title, Introduction, Images, TextHover, CelContainer, Mensage, ButtonDiv } from "./styles"
+import { Button, Text, Title, Introduction, Images, TextHover, CelContainer, Mensage, ButtonDiv, Textos } from "./styles"
 
 
 import image1 from "../../images/fork.png"
@@ -55,7 +55,7 @@ const Home = () => {
             <CelContainer>
                 <Links />
                 <Introduction data-aos="zoom-in">
-                    <div>
+                    <Textos>
                         <Title>Olá!</Title>
                         <Text>
                             Me chamo Pedro Santos, <br />
@@ -65,7 +65,7 @@ const Home = () => {
                             e esse é o meu portifólio.
                         </Text>
                         <Mensage>Para uma melhor experiência, recomendo utilizar um computador! Obrigado!</Mensage>
-                    </div>
+                    </Textos>
                         <Images data-aos="zoom-in">
                             <img src={image1} />
                             <img src={image2} />

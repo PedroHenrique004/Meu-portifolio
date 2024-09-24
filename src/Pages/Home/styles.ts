@@ -9,6 +9,19 @@ export const Introduction = styled.div`
         padding-top: 40px;
         margin: 0 auto;
     }
+
+    @media (max-width: 1366px) {
+        display: grid;
+        grid-template-columns: 40% 60%;
+    }
+
+`
+
+export const Textos = styled.div`
+    @media (max-width: 1366px) {
+       justify-content: center;
+       text-align: center;
+    }
 `
 
 export const CelContainer = styled.div`
@@ -68,6 +81,19 @@ export const Images = styled.div`
             grid-row: 3;
         }
     }
+
+    @media (max-width: 1366px) {  
+        img {
+            max-width: 100px;
+            max-height: 100px;
+        }
+
+        display: flex;
+        gap: 100px;
+        justify-content: center;
+        align-items: center;
+        
+    }
 `
 
 export const Title = styled.h1`
@@ -93,6 +119,10 @@ export const Title = styled.h1`
 
     @media (max-width: 1024px) {
         font-size: 40px;
+    }
+
+    @media (max-width: 1366px) {
+        font-size: 80px;
     }
 `
 
@@ -146,6 +176,12 @@ export const Text = styled.p`
     @media (max-width: 1024px) {
         font-size: 12px;
         line-height: 15px;
+        margin: 24px auto;
+    }
+
+    @media (max-width: 1366px) {
+        font-size: 32px;
+        line-height: 45px;
         margin: 24px auto;
     }
 `
@@ -250,5 +286,11 @@ export const ButtonDiv = styled.div`
         button {
             margin-top: 24px;
         }
+    }
+
+    @media (max-width: 1366px) {
+        display: list-item;
+        text-align: center;
+        margin-top: 128px;
     }
 `
