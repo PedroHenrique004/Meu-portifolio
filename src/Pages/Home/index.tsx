@@ -76,8 +76,8 @@ const Home = () => {
                     <Button data-aos="zoom-in" onMouseOver={() => setNumeroBotao(1)} onMouseLeave={() => setNumeroBotao(0)} onClick={() => navigate('/aboutMe')}>Apresentação</Button>
                     <Button data-aos="zoom-in" onMouseOver={() => setNumeroBotao(2)} onMouseLeave={() => setNumeroBotao(0)} onClick={() => navigate('/habilidades')}>Habilidades</Button>
                     <Button data-aos="zoom-in" onMouseOver={() => setNumeroBotao(3)} onMouseLeave={() => setNumeroBotao(0)} onClick={() => navigate('/projetos')}>Projetos</Button>
-                    <Button data-aos="zoom-in" onMouseOver={() => setNumeroBotao(4)} onMouseLeave={() => setNumeroBotao(0)} onClick={() => navigate('/pensamentos')} >Artigos</Button>
-                    <Button data-aos="zoom-in" onMouseOver={() => setNumeroBotao(5)} onMouseLeave={() => setNumeroBotao(0)} onClick={() => navigate('/certificados')} >Certificados</Button>
+                    <Button data-aos="zoom-in" onMouseOver={() => setNumeroBotao(4)} onMouseLeave={() => setNumeroBotao(0)} onClick={() => navigate('/certificados')} >Certificados</Button>
+                    <Button data-aos="zoom-in" onMouseOver={() => setNumeroBotao(5)} onMouseLeave={() => setNumeroBotao(0)} onClick={() => navigate('/pensamentos')} >Artigos</Button>
                 </ButtonDiv>
 
                 {alteraTexto()}

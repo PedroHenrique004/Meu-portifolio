@@ -91,8 +91,19 @@ export const Images = styled.div`
         display: flex;
         gap: 100px;
         justify-content: center;
-        align-items: center;
-        
+        align-items: center;   
+    }
+
+    @media (min-height: 400px) and (max-height: 750px)  {  
+        img {
+            max-width: 100px;
+            max-height: 100px;
+        }
+
+        display: flex;
+        gap: 100px;
+        justify-content: center;
+        align-items: center;   
     }
 `
 
@@ -293,4 +304,16 @@ export const ButtonDiv = styled.div`
         text-align: center;
         margin-top: 128px;
     }
+
+    @media (min-height: 400px) and (max-height: 750px) {
+
+        button {
+            max-width: 200px;
+            margin: 32px 16px;
+        }
+        display: block;
+        gap: 16px; 
+    }
+
+
 `
