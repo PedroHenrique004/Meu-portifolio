@@ -105,6 +105,12 @@ export const Images = styled.div`
         justify-content: center;
         align-items: center;   
     }
+
+    @media (min-width: 200px) and (max-width: 750px)  {  
+        img {
+            display: none;
+        }   
+    }
 `
 
 export const Title = styled.h1`
