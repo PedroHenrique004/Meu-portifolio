@@ -10,7 +10,7 @@ export const Introduction = styled.div`
         margin: 0 auto;
     }
 
-    @media (max-width: 1366px) {
+    @media (min-width: 1300) and (max-width: 1366px)  {
         display: grid;
         grid-template-columns: 40% 60%;
     }
@@ -18,7 +18,7 @@ export const Introduction = styled.div`
 `
 
 export const Textos = styled.div`
-    @media (max-width: 1366px) {
+    @media (min-width: 1300) and (max-width: 1366px)  {
        justify-content: center;
        text-align: center;
     }
@@ -82,7 +82,7 @@ export const Images = styled.div`
         }
     }
 
-    @media (max-width: 1366px) {  
+    @media (min-width: 1300) and (max-width: 1366px)  {  
         img {
             max-width: 100px;
             max-height: 100px;
@@ -121,7 +121,7 @@ export const Title = styled.h1`
         font-size: 40px;
     }
 
-    @media (max-width: 1366px) {
+    @media (min-width: 1300) and (max-width: 1366px)  {
         font-size: 80px;
     }
 `
@@ -179,7 +179,7 @@ export const Text = styled.p`
         margin: 24px auto;
     }
 
-    @media (max-width: 1366px) {
+    @media (min-width: 1300) and (max-width: 1366px)  {
         font-size: 32px;
         line-height: 45px;
         margin: 24px auto;
@@ -288,7 +288,7 @@ export const ButtonDiv = styled.div`
         }
     }
 
-    @media (max-width: 1366px) {
+    @media (min-width: 1300) and (max-width: 1366px)  {
         display: list-item;
         text-align: center;
         margin-top: 128px;
